@@ -28,5 +28,5 @@ $ git clone https://github.com/code-iai/iai_common_msgs
 - /pole/pole2.urdf.xacro (kinect2 camera pole)
 
 #####./lasa-robots/kuka_lwr_description/robots/  
-- kuka_lwr_lasa.urdf.xacro (main file to include all models and transformations): Configuration 1:Add picture
-- kuka_lwr2_lasa.urdf.xacro (main file to include all models and transformations): Configuration 2:Add picture
+- kuka_lwr_lasa.urdf.xacro (main file to include all models and transformations) -- Configuration 1:Add picture
+- kuka_lwr2_lasa.urdf.xacro (main file to include all models and transformations) -- Configuration 2:Add picture
