@@ -30,7 +30,7 @@ $ git clone https://github.com/epfl-lasa/robot-toolkit.git
 ```
 
 For **realtime visualization** there are two options:
-If you are using Nadia's kuka_interface_packages (https://github.com/nbfigueroa/kuka_interface_packages.git) to control the robot in a modular architecture you can start up the environment and visualization as follows:
+If you are using [Nadia's kuka_interface_packages](https://github.com/nbfigueroa/kuka_interface_packages.git) to control the robot in a modular architecture you can start up the environment and visualization as follows:
 
 ```
 $ roslaunch kuka_lwr_bringup lwr_realtime_viz.launch
