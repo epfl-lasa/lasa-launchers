@@ -33,16 +33,16 @@ For **realtime visualization** there are two options:
 If you are using [Nadia's kuka_interface_packages](https://github.com/nbfigueroa/kuka_interface_packages.git) to control the robot in a modular architecture you can start up the environment and visualization as follows:
 
 ```
-$ roslaunch kuka_lwr_bringup lwr_realtime_viz.launch
 $ rosrun rtk_mirror run_lwr.sh
+$ roslaunch kuka_lwr_bringup lwr_realtime_viz.launch
 $ rosrun rviz rviz
 ```
 
 If you are using the epfl-lasa standard interface packages (lwr_interface and fri-library-ros) you can just run robot_mirror and rviz as follows:
 
 ```
-$ roslaunch kuka_lwr_bringup lwr_realtime_viz.launch
 $ roslaunch robot_mirror robot_mirror.launch
+$ roslaunch kuka_lwr_bringup lwr_realtime_viz.launch
 $ rosrun rviz rviz
 ```
 
