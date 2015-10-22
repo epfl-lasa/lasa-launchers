@@ -13,6 +13,20 @@ In addition to this, you need to have two more repos from code-iai in your works
 $ git clone https://github.com/code-iai/iai_control_pkgs
 $ git clone https://github.com/code-iai/iai_common_msgs
 ```
+
+##Functionalities:
+In order to **simulate** the KUKA LWR robot in the LASA lab with velocity controllers you need to run the following lines of code:
+
+```
+$ roslaunch kuka_lwr_bringup lwr_simulation_viz.launch
+$ rosrun rviz rviz
+```
+
+This simulation "emulates" a joint velocity controller in ROS. You can send it joint velocity/stiffness commands and it will follow suit. No dynamics or physics simulation is included. This can be used to test code and trajectories before going on to the real robot.
+
+
+
+
 #### Package Contents
 
 #####./lasa-robots/kuka_lwr_bringup/launch/  
