@@ -38,7 +38,7 @@ $ rosrun rtk_mirror run_lwr.sh
 $ rosrun rviz rviz
 ```
 
-If you are using the epfl-lasa Kuka interface packages (lwr_interface and fri-library-ros) you can just run robot_mirror and rviz as follows:
+If you are using the epfl-lasa standard interface packages (lwr_interface and fri-library-ros) you can just run robot_mirror and rviz as follows:
 
 ```
 $ roslaunch kuka_lwr_bringup lwr_realtime_viz.launch
